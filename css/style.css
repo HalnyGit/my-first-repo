@@ -18,7 +18,7 @@ body {
 .row:after {
   clear: both; }
 
-/* 1. sekcja - header */
+/* 1. sekcja - Nagłówek */
 header {
   background-color: #313332;
   height: 50px; }
@@ -45,10 +45,11 @@ header > nav ul {
       header > nav ul > li > a:hover {
         background-color: #505050;
         color: #00c7e8; }
+
 header > nav img {
   padding: 10px 0; }
 
-/* 2. sekcja - welcome */
+/* 2. sekcja - Powitalna */
 .hero {
   width: 100%;
   height: calc(100vh - 50px);
@@ -161,17 +162,21 @@ header > nav img {
 .col-offset-11 {
   margin-left: 91.66%; }
 
-/* 3. sekcja - Benefits - 3 elements in one line */
+/* 3. sekcja - Korzysci - 3 elementy w jednej linii */
 .benefits i {
   font-size: 48px;
   text-align: center; }
+
 .benefits .col-4 {
   padding: 30px; }
+
 .benefits h4 {
   text-transform: uppercase;
   margin-bottom: 10px; }
+
 .benefits > div {
   margin: 0 35px; }
+
 .benefits > div > div {
   text-align: center; }
 
@@ -194,25 +199,27 @@ header > nav img {
 .bkg-blue {
   background-color: #00c7e8; }
 
-/* 4. sekcja - header with text */
+/* 4. sekcja - Nagłówek z tekstem */
 .features div {
   margin: 10px auto;
   padding: 0 150px; }
+
 .features h2 {
   margin: 0 auto;
   margin-bottom: 10px;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700; }
+
 .features p {
   margin: 0 auto;
   text-align: center; }
 
-/* 5. sekcja - gallery */
+/* 5. sekcja - Galeria */
 .gallery {
   margin: 0 auto;
   margin-top: 30px;
-  /*max-width: 1200px */ }
+  /*max-width: 1200px*/ }
   .gallery [class*="col-"] {
     padding: 0;
     position: relative;
@@ -243,7 +250,7 @@ header > nav img {
     text-align: center;
     line-height: 24px; }
 
-/* 6. sekcja - staff */
+/* 6. sekcja - Pracownicy */
 .staff {
   max-width: 1200px;
   margin: 0 auto;
@@ -291,7 +298,7 @@ header > nav img {
   text-align: center;
   font-weight: 700; }
 
-/* 7. sekcja - promotion */
+/* 7. sekcja - Promocja */
 .promo {
   width: 100%;
   margin: 0 auto;
@@ -377,6 +384,7 @@ header > nav img {
 
 .middle-toe p {
   margin-top: 0; }
+
 .middle-toe .col-4 {
   padding-top: 0; }
 
@@ -401,41 +409,31 @@ header > nav img {
 @media (max-width: 767px) {
   .col-s-1 {
     width: 8.33%; }
-
   .col-s-2 {
     width: 16.66%; }
-
   .col-s-3 {
     width: 25%; }
-
   .col-s-4 {
     width: 33.33%; }
-
   .col-s-5 {
     width: 41.66%; }
-
   .col-s-6 {
     width: 50%; }
-
   .col-s-7 {
     width: 58.33%; }
-
   .col-s-8 {
     width: 66.66%; }
-
   .col-s-9 {
     width: 75%; }
-
   .col-s-10 {
     width: 83.33%; }
-
   .col-s-11 {
     width: 91.66%; }
-
   .col-s-12 {
     width: 100%; } }
+
 @media (max-width: 767px) {
-  /* media - 1. header */
+  /* media - 1. nagłówek*/
   header {
     height: auto; }
     header > nav ul {
@@ -447,18 +445,15 @@ header > nav img {
     header > nav img {
       display: block;
       margin: 0 auto; }
-
-  /* media - 2. welcome */
+  /* media - 2. powitalna*/
   .slogan h1 {
     text-align: right;
     padding: 38px;
     text-align: right; }
-
-  /* media - 4. header with text */
+  /* media - 4. nagłówek z tekstem */
   .features div {
     padding: 0 20px; }
-
-  /* media - 5. gallery */
+  /* media - 5. galeria */
   .layer {
     height: 100%; }
     .layer div {
@@ -466,45 +461,35 @@ header > nav img {
       width: 3rem;
       height: 3rem;
       line-height: 3rem; }
-
-  /* media - 6. staff */
+  /* media - 6. pracownicy */
   .staff .img-frame {
     width: 150px;
     height: 150px; }
-
-  /* media - 7. promotion */
+  /* media - 7. promocja */
   .promo {
     padding: 30px 30px 0; }
-
   .img-promo {
     margin: 0 auto; }
     .img-promo img {
       margin: 0 auto; }
-
   .text-promo h1 {
     font-size: 1rem; }
   .text-promo p {
     font-size: 0.75rem; }
-
   /* media - 8. numbers */
   .numbers .numb {
     font-size: 50px; }
-
   /* media - 9. footer */
   .big-toe p::after {
     width: 10%; }
-
   .big-toe {
     font-size: 1.5rem; }
-
   .middle-toe {
     font-size: 0.7rem; }
-
   .address-window p {
     margin-bottom: 0; }
   .address-window .row .col-3 {
     padding-bottom: 0; }
-
   .ft-icon {
     width: 3rem;
     height: 3rem;
@@ -512,48 +497,38 @@ header > nav img {
     .ft-icon i {
       font-size: 2rem;
       line-height: 3rem; } }
+
 @media (min-width: 768px) and (max-width: 1199px) {
   .col-m-1 {
     width: 8.33%; }
-
   .col-m-2 {
     width: 16.66%; }
-
   .col-m-3 {
     width: 25%; }
-
   .col-m-4 {
     width: 33.33%; }
-
   .col-m-5 {
     width: 41.66%; }
-
   .col-m-6 {
     width: 50%; }
-
   .col-m-7 {
     width: 58.33%; }
-
   .col-m-8 {
     width: 66.66%; }
-
   .col-m-9 {
     width: 75%; }
-
   .col-m-10 {
     width: 83.33%; }
-
   .col-m-11 {
     width: 91.66%; }
-
   .col-m-12 {
     width: 100%; } }
+
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* media - 1. header */
+  /* media - 1. nagłówek*/
   header > nav ul > li > a {
     padding: 0 10px; }
-
-  /* media - 5. gallery */
+  /* media - 5. galeria */
   .layer {
     height: 100%; }
     .layer div {
@@ -561,31 +536,24 @@ header > nav img {
       width: 3rem;
       height: 3rem;
       line-height: 3rem; }
-
-  /* media - 7. promotion */
+  /* media - 7. promocja */
   .promo {
     padding: 30px 30px 0; }
-
   .img-promo {
     margin-left: 0; }
-
   .text-promo h1 {
     font-size: 2rem; }
   .text-promo p {
     font-size: 1rem; }
-
   /* media - 9. footer */
   .big-toe p::after {
     width: 15%; }
-
   .big-toe {
     font-size: 1.5rem; }
-
   .address-window p {
     margin-bottom: 0; }
   .address-window .row .col-3 {
     padding-bottom: 0; }
-
   .ft-icon {
     width: 3rem;
     height: 3rem;
@@ -593,6 +561,7 @@ header > nav img {
     .ft-icon i {
       font-size: 2rem;
       line-height: 3rem; } }
+
 @media (min-width: 1200px) {
   /* media - 5. galeria */
   .layer:hover {
