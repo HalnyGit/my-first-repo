@@ -18,7 +18,7 @@ body {
 .row:after {
   clear: both; }
 
-/* 1. sekcja - Nagłówek */
+/* 1. sekcja - header */
 header {
   background-color: #313332;
   height: 50px; }
@@ -49,7 +49,7 @@ header > nav ul {
 header > nav img {
   padding: 10px 0; }
 
-/* 2. sekcja - Powitalna */
+/* 2. sekcja - welcome */
 .hero {
   width: 100%;
   height: calc(100vh - 50px);
@@ -162,7 +162,7 @@ header > nav img {
 .col-offset-11 {
   margin-left: 91.66%; }
 
-/* 3. sekcja - Korzysci - 3 elementy w jednej linii */
+/* 3. sekcja - benefits - 3 elements in one line */
 .benefits i {
   font-size: 48px;
   text-align: center; }
@@ -199,7 +199,7 @@ header > nav img {
 .bkg-blue {
   background-color: #00c7e8; }
 
-/* 4. sekcja - Nagłówek z tekstem */
+/* 4. sekcja - header with text */
 .features div {
   margin: 10px auto;
   padding: 0 150px; }
@@ -215,7 +215,7 @@ header > nav img {
   margin: 0 auto;
   text-align: center; }
 
-/* 5. sekcja - Galeria */
+/* 5. sekcja - gallery */
 .gallery {
   margin: 0 auto;
   margin-top: 30px;
@@ -250,7 +250,7 @@ header > nav img {
     text-align: center;
     line-height: 24px; }
 
-/* 6. sekcja - Pracownicy */
+/* 6. sekcja - staff */
 .staff {
   max-width: 1200px;
   margin: 0 auto;
@@ -298,7 +298,7 @@ header > nav img {
   text-align: center;
   font-weight: 700; }
 
-/* 7. sekcja - Promocja */
+/* 7. sekcja - promotion */
 .promo {
   width: 100%;
   margin: 0 auto;
@@ -334,7 +334,7 @@ header > nav img {
 .promo .col-5 {
   text-transform: uppercase; }
 
-/* 8. sekcja - Numbers */
+/* 8. sekcja - numbers */
 .numbers {
   padding-top: 24px;
   padding-bottom: 24px; }
@@ -354,7 +354,7 @@ header > nav img {
     margin-left: 50px;
     margin-right: 50px; }
 
-/* 9. sekcja - Footer */
+/* 9. sekcja - footer */
 .footer {
   width: 100%;
   margin: 0 auto;
@@ -433,7 +433,7 @@ header > nav img {
     width: 100%; } }
 
 @media (max-width: 767px) {
-  /* media - 1. nagłówek*/
+  /* media - 1. header*/
   header {
     height: auto; }
     header > nav ul {
@@ -445,15 +445,15 @@ header > nav img {
     header > nav img {
       display: block;
       margin: 0 auto; }
-  /* media - 2. powitalna*/
+  /* media - 2. welcome*/
   .slogan h1 {
     text-align: right;
     padding: 38px;
     text-align: right; }
-  /* media - 4. nagłówek z tekstem */
+  /* media - 4. header with text */
   .features div {
     padding: 0 20px; }
-  /* media - 5. galeria */
+  /* media - 5. gallery */
   .layer {
     height: 100%; }
     .layer div {
@@ -461,11 +461,11 @@ header > nav img {
       width: 3rem;
       height: 3rem;
       line-height: 3rem; }
-  /* media - 6. pracownicy */
+  /* media - 6. staff */
   .staff .img-frame {
     width: 150px;
     height: 150px; }
-  /* media - 7. promocja */
+  /* media - 7. promotion */
   .promo {
     padding: 30px 30px 0; }
   .img-promo {
@@ -525,10 +525,10 @@ header > nav img {
     width: 100%; } }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* media - 1. nagłówek*/
+  /* media - 1. header*/
   header > nav ul > li > a {
     padding: 0 10px; }
-  /* media - 5. galeria */
+  /* media - 5. gallery */
   .layer {
     height: 100%; }
     .layer div {
@@ -536,7 +536,7 @@ header > nav img {
       width: 3rem;
       height: 3rem;
       line-height: 3rem; }
-  /* media - 7. promocja */
+  /* media - 7. promotion */
   .promo {
     padding: 30px 30px 0; }
   .img-promo {
@@ -563,7 +563,7 @@ header > nav img {
       line-height: 3rem; } }
 
 @media (min-width: 1200px) {
-  /* media - 5. galeria */
+  /* media - 5. gallery */
   .layer:hover {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); } }
