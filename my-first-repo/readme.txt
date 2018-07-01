@@ -3,5 +3,5 @@ im a text file :)
 
 Pulled and Pushed
 
-dodane z lapka
+dodane z lapka!!!
 
